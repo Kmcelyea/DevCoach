@@ -13,6 +13,12 @@
 @synthesize managedObjectModel = _managedObjectModel;
 @synthesize managedObjectContext = _managedObjectContext;
 
+- (IBAction)reloadTable:(id)sender{
+    
+    [referencesTable reloadData];
+    
+}
+
 - (NSURL *)applicationFilesDirectory
 {
     NSFileManager *fileManager = [NSFileManager defaultManager];

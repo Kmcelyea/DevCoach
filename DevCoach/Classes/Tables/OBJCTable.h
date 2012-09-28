@@ -22,6 +22,6 @@
 
 
 - (IBAction)saveAction:(id)sender;
-
+- (IBAction)reloadTable:(id)sender;
 
 @end

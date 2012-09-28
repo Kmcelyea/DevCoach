@@ -20,6 +20,12 @@
     
 }
 
+- (IBAction)reloadTable:(id)sender{
+    
+    [referencesTable reloadData];
+    
+}
+
 - (NSURL *)applicationFilesDirectory
 {
     NSFileManager *fileManager = [NSFileManager defaultManager];

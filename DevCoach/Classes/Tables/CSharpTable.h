@@ -8,7 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
-@interface CSharpTable : NSObject
+@interface CSharpTable : NSObject{
+    
+    
+    IBOutlet NSTableView *referencesTable;
+    
+}
 
 @property (nonatomic, retain, readonly) NSPersistentStoreCoordinator *persistentStoreCoordinator;
 @property (nonatomic, retain, readonly) NSManagedObjectModel *managedObjectModel;
@@ -16,5 +21,6 @@
 
 
 - (IBAction)saveAction:(id)sender;
+- (IBAction)reloadTable:(id)sender;
 
 @end
