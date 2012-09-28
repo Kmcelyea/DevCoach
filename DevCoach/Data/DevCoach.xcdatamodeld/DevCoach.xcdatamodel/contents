@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1810" systemVersion="11E53" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="CSharp" syncable="YES">
+        <attribute name="referenceinfo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="referencename" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="referencetype" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Github" syncable="YES">
+        <attribute name="referenceinfo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="referencename" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="referencetype" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="OBJC" syncable="YES">
+        <attribute name="referenceinfo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="referencename" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="referencetype" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="OBJC" positionX="160" positionY="192" width="128" height="90"/>
+        <element name="CSharp" positionX="160" positionY="192" width="128" height="90"/>
+        <element name="Github" positionX="160" positionY="192" width="128" height="90"/>
+    </elements>
+</model>
